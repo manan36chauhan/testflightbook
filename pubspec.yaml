@@ -1,0 +1,50 @@
+name: testflightbook
+description: "A new Flutter project."
+
+# Prevents accidental publishing to pub.dev for private projects.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev.
+
+# Application version and build information.
+version: 1.0.0+1
+
+# Dart SDK version required for this project.
+environment:
+  sdk: ^3.6.0
+
+# Dependencies for your application.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# Flutter-specific settings.
+flutter:
+  uses-material-design: true
+
+  # Assets to include in your project.
+  assets:
+    - lib/assets/images/firstimg.png
+    - lib/assets/images/sarabia.png
+    - lib/assets/images/kuwait.png
+    - lib/assets/images/bestprice.png
+    # Add other images or assets here if needed, ensuring the paths are correct.
+
+  # Fonts can be added here if required.
+  # Example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+
+# Notes:
+# 1. Ensure the image `assets/images/firstimg.png` exists at the specified path.
+# 2. If you add more assets, confirm their paths match the folder structure in your project.
+# 3. Run `flutter pub get` after modifying this file to update dependencies and assets.
